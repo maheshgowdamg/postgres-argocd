@@ -1,0 +1,16 @@
+apiVersion: v2
+name: database
+description: A Helm umbrella chart to deploy Bitnami MongoDB
+type: application
+version: 0.1.0
+appVersion: "15.6.22"
+
+dependencies:
+  - name: postgresql
+    version: 15.5.0
+    repository: https://charts.bitnami.com/bitnami
+
+  - name: mongodb
+    version: 15.6.22
+    repository: https://charts.bitnami.com/bitnami
+
