@@ -3,7 +3,7 @@ name: database
 description: A Helm umbrella chart to deploy Bitnami MongoDB
 type: application
 version: 0.1.0
-appVersion: "15.6.22"
+appVersion: "multi" 
 
 dependencies:
   - name: postgresql
